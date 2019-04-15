@@ -1,0 +1,43 @@
+* {
+    margin: 0
+}
+ul {
+    list-style: none
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    background: gray
+}
+
+.informacoes img {
+    width: 250px;
+    height: auto;
+}
+
+.info-contatos {
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociais a:hover{
+    color:black;
+    text-decoration: none;
+    }
